@@ -31,13 +31,13 @@ print('|' + str('abc') + '|')
 print('|' + str(True) + '|')
 
 # chr函数
-# 讲一个数字转换成字符
+# 将一个数字转换成字符
 print(chr(48)) # '0'
 print(chr(65)) # 'A'
 print(chr(97)) # 'a'
 
 # ord函数
-# 讲一个数字转换成字符
+# 将一个数字转换成字符
 print(ord('0')) # 48
 print(ord('A')) # 65
 print(ord('a')) # 97

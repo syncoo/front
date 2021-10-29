@@ -11,13 +11,13 @@
 
 a = 10
 b = 2
-print(a**b)
-print(a//b)
-print((a/b)%2)
-print((a/b)//1.5)
+print(a ** b)
+print(a // b)
+print((a / b) % 2)
+print((a / b) // 1.5)
 
 # 字符串也可以进行想加,就是把字符串连起来,如'a'+'b' = 'ab'
-print('a'+'b')
+print('a' + 'b')
 
 # 字符串也可以和整数进行相乘,如'a'*3 = 'aaa'
-print('a'*3)
+print('a' * 3)

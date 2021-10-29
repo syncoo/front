@@ -34,9 +34,11 @@ print('π的值是%.2f' % 3.1415926)
 print('π的值是%.2f' % 3.1) # 小数位数不够,后面补零
 
 # f'string' 格式化字符串
-name = "Tome"
+name = "Tom"
 age = 12
 print(f'name:{name} age:{age} score:{99}')
+
+print(f'Name:{"Jerry"} Age:{True} Score:{99}')
 
 s = f'name:{name} age:{age} score:{88}' # 我们也可以把格式化后的字符串复制给某个变量名
 print(s)

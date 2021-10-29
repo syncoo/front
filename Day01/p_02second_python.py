@@ -14,6 +14,7 @@ print(5)
 # 方法： 变量名 = 变量
 a = 1
 b = 2
+print(a,b)
 print(a + b)
 print(a)
 

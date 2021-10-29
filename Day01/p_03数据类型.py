@@ -11,9 +11,9 @@ e = '''三引号实现的字符串'''
 print(e)
 f = """这也是字符串"""
 print(f)
-g = True
+g = True    # g是bool类型
 print(g)
-h = False
+h = False   # h也是bool类型
 print(h)
 i = 'j'
 print(i)

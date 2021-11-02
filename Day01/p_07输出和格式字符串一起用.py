@@ -9,7 +9,9 @@ print()
 # 占位符形式
 # 情况1
 a = 10
+b = 15
 print('现在要打印一个数字,值是%d' % a)
+print('现在要打印两个数值,值分别是%d,%d' %(a,b))
 
 # 情况2:多个值要用括号括起来
 print('name: %s age: %d' % ('Tom', 12))
@@ -42,3 +44,4 @@ print(f'Name:{"Jerry"} Age:{True} Score:{99}')
 
 s = f'name:{name} age:{age} score:{88}' # 我们也可以把格式化后的字符串复制给某个变量名
 print(s)
+
